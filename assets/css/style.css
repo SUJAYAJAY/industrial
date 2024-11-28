@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+.text-color {
+    color: #00ffff;
+}
+
+.background-color {
+    color: #0000ff;
+}
+
+/* Header Section Start*/
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #0000ff;
+    color: #fff;
+    display: flex;
+    line-height: 60px;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+header .company-name span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+header .contact span {
+    color: #00ffff;
+}
+
+/* Header Section End*/
+
+/* Banner/Hero Section Start*/
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Industrial.jpg);
+    /* background: url(../img/Industrial.jpg);  */
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    align-items: center;
+}
+main form{
+    background-color: #0000ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+main form input,button{
+    height: 45px;
+    margin: 2px 0px;
+    text-align: center;
+}
+
+/* Banner/Hero Section End*/
+
+/* Main Section Start*/
+.main{
+    display: flex;
+    width: 100%;
+    padding: 40px 100px;
+    justify-content: space-between;
+    color:#2911de;
+}
+.people, .innovation,.solutions{
+    width: 30%;
+ 
+}
+.main img{
+    width: 100%;
+}
+
+/*Main Section End*/
+
+/*About Section Start*/
+.about{
+    background: #140679;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 50px 150px;
+}
+.about p{
+    padding-bottom: 25px;
+}
+.about button{
+    padding: 0px 80px;
+    background: #140679;
+    color: #fff;
+    border-color: #fff;
+    font-weight: bold;
+}
+/*About Section End*/
+
+/*Company Section Start*/
+
+.company-details{
+    padding: 0px 100px;
+    width: 100%;
+}
+.company-details .top, .company-details .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.top div, .bottom div{
+    width: 50%;
+}
+div img{
+    width: 100%;
+}
+.top .ttext, .bottom .btext{
+    padding: 100px;
+}
+/*Company Section End*/
+
+/*Footer Section Start*/
+footer{
+    background: #1d08a9;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+/*Footer Section End*/
